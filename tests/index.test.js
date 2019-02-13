@@ -5,7 +5,7 @@ describe('Test routing', () => {
     test('It should response homepage GET method', async () => {
         const response = await request(app).get('/');
         expect(response.statusCode).toBe(200);
-        expect(response.text).toContain('Hello world!');
+        expect(response.text).toContain('Hey world!');
     })
 
     test('It should return users list', async () => {
