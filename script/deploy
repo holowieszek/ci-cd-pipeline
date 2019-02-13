@@ -3,7 +3,7 @@
 ssh hoho@165.227.149.177 <<EOF
  cd ~/ci-cd-pipeline
  git pull
- npm install — production
+ npm install
  pm2 restart all
  exit
 EOF
